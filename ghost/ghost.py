@@ -588,7 +588,7 @@ class Ghost(object):
         page = None
         url = self.main_frame.url().toString()
         for resource in resources:
-            if url == resource.url:
+            if url == resource.url.toString():
                 page = resource
         return page, resources
 
