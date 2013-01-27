@@ -1,2 +1,2 @@
-from ghost import Ghost
+from ghost import *
 from test import GhostTestCase
