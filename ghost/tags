@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BaseGhostTestCase	test.py	/^class BaseGhostTestCase(TestCase):$/;"	c
+Ghost	ghost.py	/^class Ghost(object):$/;"	c
+GhostTestCase	ext/django/test.py	/^class GhostTestCase(LiveServerTestCase, BaseGhostTestCase):$/;"	c
+GhostTestCase	test.py	/^class GhostTestCase(BaseGhostTestCase):$/;"	c
+GhostWebPage	ghost.py	/^class GhostWebPage(QtWebKit.QWebPage):$/;"	c
+HttpResource	ghost.py	/^class HttpResource(object):$/;"	c
+Logger	ghost.py	/^class Logger(logging.Logger):$/;"	c
+PYSIDE	ghost.py	/^        PYSIDE = True$/;"	v
+PYSIDE	ghost.py	/^PYSIDE = False$/;"	v
+ServerThread	test.py	/^class ServerThread(threading.Thread):$/;"	c
+__call__	test.py	/^    def __call__(self, result=None):$/;"	m	class:BaseGhostTestCase	file:
+__del__	ghost.py	/^    def __del__(self):$/;"	m	class:Ghost	file:
+__enter__	ghost.py	/^        def __enter__(self):$/;"	m	class:Ghost.confirm	file:
+__enter__	ghost.py	/^        def __enter__(self):$/;"	m	class:Ghost.prompt	file:
+__exit__	ghost.py	/^        def __exit__(self, type, value, traceback):$/;"	m	class:Ghost.confirm	file:
+__exit__	ghost.py	/^        def __exit__(self, type, value, traceback):$/;"	m	class:Ghost.prompt	file:
+__init__	ghost.py	/^        def __init__(self, confirm=True, callback=None):$/;"	m	class:Ghost.confirm
+__init__	ghost.py	/^        def __init__(self, value='', callback=None):$/;"	m	class:Ghost.prompt
+__init__	ghost.py	/^    def __init__(self, reply, cache, content=None):$/;"	m	class:HttpResource
+__init__	ghost.py	/^    def __init__(self, user_agent=default_user_agent, wait_timeout=8,$/;"	m	class:Ghost
+__init__	test.py	/^    def __init__(self, app, port=5000):$/;"	m	class:ServerThread
+__new__	test.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:BaseGhostTestCase	file:
+_alert	ghost.py	/^    _alert = None$/;"	v	class:Ghost
+_app	ghost.py	/^    _app = None$/;"	v	class:Ghost
+_authenticate	ghost.py	/^    def _authenticate(self, mix, authenticator):$/;"	m	class:Ghost
+_confirm_expected	ghost.py	/^    _confirm_expected = None$/;"	v	class:Ghost
+_on_manager_ssl_errors	ghost.py	/^    def _on_manager_ssl_errors(self, reply, errors):$/;"	m	class:Ghost
+_page_load_started	ghost.py	/^    def _page_load_started(self):$/;"	m	class:Ghost
+_page_loaded	ghost.py	/^    def _page_loaded(self):$/;"	m	class:Ghost
+_post_teardown	test.py	/^    def _post_teardown(self):$/;"	m	class:BaseGhostTestCase
+_pre_setup	test.py	/^    def _pre_setup(self):$/;"	m	class:BaseGhostTestCase
+_prompt_expected	ghost.py	/^    _prompt_expected = None$/;"	v	class:Ghost
+_release_last_resources	ghost.py	/^    def _release_last_resources(self):$/;"	m	class:Ghost
+_request_ended	ghost.py	/^    def _request_ended(self, reply):$/;"	m	class:Ghost
+_set_checkbox_value	ghost.py	/^        def _set_checkbox_value(el, value):$/;"	f	function:Ghost.set_field_value
+_set_checkboxes_value	ghost.py	/^        def _set_checkboxes_value(els, value):$/;"	f	function:Ghost.set_field_value
+_set_radio_value	ghost.py	/^        def _set_radio_value(els, value):$/;"	f	function:Ghost.set_field_value
+_set_text_value	ghost.py	/^        def _set_text_value(el, value):$/;"	f	function:Ghost.set_field_value
+_set_textarea_value	ghost.py	/^        def _set_textarea_value(el, value):$/;"	f	function:Ghost.set_field_value
+_unsupported_content	ghost.py	/^    def _unsupported_content(self, reply):$/;"	m	class:Ghost
+_upload_file	ghost.py	/^    _upload_file = None$/;"	v	class:Ghost
+can_load_page	ghost.py	/^def can_load_page(func):$/;"	f
+capture	ghost.py	/^    def capture(self, region=None, selector=None,$/;"	m	class:Ghost
+capture_to	ghost.py	/^    def capture_to(self, path, region=None, selector=None,$/;"	m	class:Ghost
+chooseFile	ghost.py	/^    def chooseFile(self, frame, suggested_file=None):$/;"	m	class:GhostWebPage
+click	ghost.py	/^    def click(self, selector):$/;"	m	class:Ghost
+confirm	ghost.py	/^    class confirm:$/;"	c	class:Ghost
+content	ghost.py	/^    def content(self):$/;"	m	class:Ghost
+cookies	ghost.py	/^    def cookies(self):$/;"	m	class:Ghost
+create_app	test.py	/^    def create_app(self):$/;"	m	class:GhostTestCase
+default_user_agent	ghost.py	/^    "(KHTML, like Gecko) Chrome\/15.0.874.121 Safari\/535.2"$/;"	v
+delete_cookies	ghost.py	/^    def delete_cookies(self):$/;"	m	class:Ghost
+display	test.py	/^    display = False$/;"	v	class:BaseGhostTestCase
+evaluate	ghost.py	/^    def evaluate(self, script):$/;"	m	class:Ghost
+evaluate_js_file	ghost.py	/^    def evaluate_js_file(self, path, encoding='utf-8'):$/;"	m	class:Ghost
+exists	ghost.py	/^    def exists(self, selector):$/;"	m	class:Ghost
+exit	ghost.py	/^    def exit(self):$/;"	m	class:Ghost
+fill	ghost.py	/^    def fill(self, selector, values):$/;"	m	class:Ghost
+fire_on	ghost.py	/^    def fire_on(self, selector, method):$/;"	m	class:Ghost
+global_exists	ghost.py	/^    def global_exists(self, global_name):$/;"	m	class:Ghost
+hide	ghost.py	/^    def hide(self):$/;"	m	class:Ghost
+javaScriptAlert	ghost.py	/^    def javaScriptAlert(self, frame, message):$/;"	m	class:GhostWebPage
+javaScriptConfirm	ghost.py	/^    def javaScriptConfirm(self, frame, message):$/;"	m	class:GhostWebPage
+javaScriptConsoleMessage	ghost.py	/^    def javaScriptConsoleMessage(self, message, line, source):$/;"	m	class:GhostWebPage
+javaScriptPrompt	ghost.py	/^    def javaScriptPrompt(self, frame, message, defaultValue, result=None):$/;"	m	class:GhostWebPage
+join	test.py	/^    def join(self, timeout=None):$/;"	m	class:ServerThread
+log	ghost.py	/^    def log(message, sender="Ghost", level="info"):$/;"	m	class:Logger
+log_level	test.py	/^    log_level = logging.INFO$/;"	v	class:BaseGhostTestCase
+logger	ghost.py	/^logger = logging.getLogger('ghost')$/;"	v
+open	ghost.py	/^    def open(self, address, method='get', headers={}, auth=None, body=None):$/;"	m	class:Ghost
+port	test.py	/^    port = 5000$/;"	v	class:GhostTestCase
+prompt	ghost.py	/^    class prompt:$/;"	c	class:Ghost
+region_for_selector	ghost.py	/^    def region_for_selector(self, selector):$/;"	m	class:Ghost
+run	test.py	/^    def run(self):$/;"	m	class:ServerThread
+server_class	test.py	/^    server_class = ServerThread$/;"	v	class:GhostTestCase
+setUpClass	test.py	/^    def setUpClass(cls):$/;"	m	class:GhostTestCase
+setUserAgent	ghost.py	/^    def setUserAgent(self, user_agent):$/;"	m	class:GhostWebPage
+set_field_value	ghost.py	/^    def set_field_value(self, selector, value, blur=True):$/;"	m	class:Ghost
+set_viewport_size	ghost.py	/^    def set_viewport_size(self, width, height):$/;"	m	class:Ghost
+show	ghost.py	/^    def show(self):$/;"	m	class:Ghost
+tearDownClass	test.py	/^    def tearDownClass(cls):$/;"	m	class:GhostTestCase
+userAgentForUrl	ghost.py	/^    def userAgentForUrl(self, url):$/;"	m	class:GhostWebPage
+viewport_size	test.py	/^    viewport_size = (800, 600)$/;"	v	class:BaseGhostTestCase
+wait_for	ghost.py	/^    def wait_for(self, condition, timeout_message):$/;"	m	class:Ghost
+wait_for_alert	ghost.py	/^    def wait_for_alert(self):$/;"	m	class:Ghost
+wait_for_page_loaded	ghost.py	/^    def wait_for_page_loaded(self):$/;"	m	class:Ghost
+wait_for_selector	ghost.py	/^    def wait_for_selector(self, selector):$/;"	m	class:Ghost
+wait_for_text	ghost.py	/^    def wait_for_text(self, text):$/;"	m	class:Ghost
+wait_timeout	test.py	/^    wait_timeout = 5$/;"	v	class:BaseGhostTestCase
+wrapper	ghost.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:can_load_page
